@@ -1,35 +1,220 @@
 body{
 	margin: 0px;
-	font-family: sans-serif;
-	background-color: #131212;
+	font-family: 'Gotham', sans-serif;
+	background-color: black;
+	height: 1500px;
 }
+
 .header{
-	height: 100px;
+	height: 90px;
 	width: 100%;
-	background-color: rgba(0, 0, 0, .2); 
+	display: flex;
 	position: fixed;
 }
-.header img{
-	float: left;
+
+#logo-container{
+	width: 50%;
+}
+
+#logo-container img{
 	height: 80px;
-	margin-left: 50px;
 	margin-top: 10px;
+	margin-left: 10%;
 }
-.header a{
-	float: left;
-	text-decoration: none;
-	color: whitesmoke;
+
+#button-container{
+	width: 50%;
+}
+
+#button-container a{
+	float: right;
 	margin-top: 30px;
-	margin-left: 1550px;
-	background-color: #fb1f1f;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 20px;
-	padding-right: 20px;
-	border-radius: 3px;
+	margin-right: 50px;
+	text-decoration: none;
+	color: white;
+	background-color: #ff4444;
+	padding: 15px 30px 15px 30px;
 }
-.bg-image-container {
-	float: left;
-	height: 970px;
+
+#button-container a:hover{
+	background-color: #f12b2b;
+}
+
+/************** background-image *****************/
+.mid-container{
+	height: 600px;
 	width: 100%;
+	border-bottom: 6px solid #262626;
+}
+
+.bg-image-container{
+	height: 100%;
+	width: 70%;
+	margin: auto;
+}
+
+.bg-image-container img{
+	height: 100%;
+	width: 100%;
+	opacity: 70%;
+	float: left;
+}
+
+#bg-text,#bg-text2{
+	color: white;
+	position: absolute;
+	font-size: 40px;
+	float: left;
+}
+
+#bg-text{
+	left: 38%;
+	top: 25%;
+}
+
+#bg-text2{
+	left: 40%;
+	top: 30%;
+}
+
+#bg-text3{
+	color: white;
+	position: absolute;
+	float: left;
+	top: 38%;
+	left: 47%;
+}
+
+#subscribe{
+	float: left;
+	position: absolute;
+	text-decoration: none;
+	color: white;
+	top: 43%;
+	left: 42%;
+	background-color: #ff4444;
+	padding: 10px 25px 10px 25px;
+	border-radius: 2px;
+	font-size: 30px;
+}
+#subscribe:hover{
+	background-color: #f12b2b;
+}
+
+/************** first-lower-container **************/
+.first-lower-container{
+	height: 250px;
+	width: 100%;
+	border-bottom: 6px solid #262626;
+}
+.fl-texts{
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+.fl-texts div{
+	float: right;
+	margin-top: 2%;
+	margin-right: 5%;
+}
+.fl-texts h3{
+	color: white;
+	font-size: 35px;
+	margin-bottom: 0px;
+}
+.fl-texts p{
+	margin-top: 0px;
+	color: white;
+	font-size: 25px;
+}
+.img-container{
+	float: left;
+	height: 100%;
+	width: 50%;
+}
+.img-container img{
+	height: 150px;
+	margin-top: 4%;
+	margin-left: 15%;
+	opacity: 70%;
+}
+
+/************ second-lower-container *************/
+.second-lower-container{
+	height: 400px;
+	width: 100%;
+	border-bottom: 6px solid #262626;
+}
+.left-div,.right-div{
+	height: 100%;
+	width: 50%;
+	float: left;
+}
+.left-div img{
+	height: 300px;
+	float: right;
+	opacity: 70%;
+	margin-top: 6%;
+}
+.email{
+	float: right;
+	position: relative;
+	top: 250px;
+	left: 50px;
+
+}
+.email input{
+	padding: 10px 210px 10px 10px;
+	position: absolute;
+	border: none;
+}
+.email button{
+	text-decoration: none;
+	color: white;
+	background-color: #ff4444;
+	position: absolute;
+	padding: 10px 24px 10px 24px;
+	margin-left: 299px;
+	border: none;
+}
+.email button:hover{
+	cursor: pointer;
+	background-color: red;
+}
+.right-texts{
+	color: white;
+	margin-left: 15%;
+	margin-top: 10%;
+}
+.right-texts h3,.right-texts p{
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+.right-texts h3{
+	font-size: 35px;
+}
+.right-texts p{
+	font-size: 25px;
+}
+
+/**************third-lower-container**************/
+.third-lower-container{
+	height: 250px;
+	width: 100%;
+	border-bottom: 6px solid #262626;
+}
+.featured{
+	text-align: center;
+}
+.featured img{
+	height: 150px;
+	margin-right: 10px;
+}
+.featured h3{
+	color: white;
+	font-size: 50px;
+	margin-bottom: 0px;
+}
+.featured img:hover{
+	cursor: pointer;
 }

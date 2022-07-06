@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,8 +15,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 // Landing
-Route::get('/landing', function () {
-    return view('landing');
+Route::get('/landingpage', function () {
+    return view('landingpage');
 });
 
 // Home Page

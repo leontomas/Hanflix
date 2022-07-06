@@ -11,7 +11,8 @@
 	<!-- Font -->
 	<link href="http://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
 
-	<style>
+	<!-- Style -->
+    <style>
 		@import url('http://fonts.cdnfonts.com/css/gotham');
 	</style>
 </head>
@@ -21,7 +22,9 @@
 
 		<div class="loginBox">
 			<div class="logo">
-				<img src="thumbnails/logo2.png">
+                <a href="{{ url('landingpage') }}">
+				    <img src="./thumbnails/logo2.png">
+                </a>
 			</div>
 			<div class="reg-log">
 				<div class="reg-logBtn">

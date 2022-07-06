@@ -21,7 +21,9 @@
 	<div class="upperContainer">
 		<div class="loginBox">
 			<div class="logo">
-				<img src="thumbnails/logo2.png">
+                <a href="{{ url('landingpage') }}">
+                    <img src="./thumbnails/logo2.png">
+                </a>
 			</div>
 			<div class="reg-log">
 				<div class="reg-logBtn">
