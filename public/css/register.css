@@ -34,6 +34,7 @@ body{
 .logo{
 	height: 150px;
 	width: 100%;
+	margin-top: -55px;
 }
 .reg-log{
 	height: 470px;

@@ -26,20 +26,24 @@
 			<div class="reg-log">
 				<div class="reg-logBtn">
 					<div>	
-						<a id="loginBtn" href="">Login</a>	
-						<a id="registerBtn" href="register.html">Register</a>
+						<a id="loginBtn" href="{{ url('login') }}">Login</a>	
+						<a id="registerBtn" href="{{ url('register') }}">Register</a>
 					</div>
+
 					<div class="inputBox">
-						<input type="text" name="username" placeholder="Username">	
+						<input type="text" name="username" placeholder="Email or Username">	
 						<input type="password" name="password" placeholder="Password">		
 					</div>
+
 					<label class="keep">
 						<input type="checkbox">
 						 Keep me login
 					</label>
-					<a id="forgot"href="">Forgot my password?</a>		
+                  	
 					<button onclick="">Login</button>
+                    <a id="forgot" href="">Forgot my password?</a>
 					<p>By continuing, you agree to Hanflix's <a id="terms" href="">Terms of use</a></p>
+	
 				</div>
 			</div>
 		</div>	

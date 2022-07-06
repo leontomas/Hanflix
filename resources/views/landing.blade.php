@@ -9,7 +9,7 @@
 <body>
 	<div class="header">
 		<img src="./thumbnails/logo2.png">
-		<a href="">Sign in / Sign up</a>
+		<a href="{{ url('login') }}">Sign in</a>
 	</div>
 	<div class="bg-image-container">
 	</div>

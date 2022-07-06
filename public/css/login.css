@@ -102,17 +102,12 @@ body{
 	font-family: 'Gotham', sans-serif;
 	color: grey;
 	margin-left: 30px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
 
 }
-#forgot{
-	float: left;
-	font-size: 13px;
-	font-family: 'Gotham', sans-serif;
-	margin-top: 3px;
-	text-decoration: none;
-	margin-left: 45px;
-	color: #ec3f3f;
-}
+
 .reg-logBtn button{
 	background-color: #ec3f3f;
 	color: white;
@@ -120,13 +115,28 @@ body{
 	padding-left: 40px;
 	padding-right: 40px;
 	border-radius: 10px;
-	margin-top: 40px;
+	margin-top: 25px;
 	margin-left: 110px;
 }
 .reg-logBtn button:hover{
 	cursor: pointer;
 	color: black ;
 }
+
+#forgot{
+	float: left;
+	font-size: 13px;
+	font-family: 'Gotham', sans-serif;
+	margin-top: 5%;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	margin-left: 28%;
+	white-space: pre;
+	display: block;
+	color: #ec3f3f;
+}
+
 #terms{
 	color: #ec3f3f;
 	text-decoration: none;

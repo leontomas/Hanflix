@@ -13,8 +13,24 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Landing
+Route::get('/landing', function () {
+    return view('landing');
+});
+
+// Home Page
 Route::get('/homepage', function () {
     return view('homepage');
+});
+
+// Login
+Route::get('/login', function () {
+    return view('login');
+});
+
+// Register
+Route::get('/register', function () {
+    return view('register');
 });
 
 // Auth::routes();
