@@ -1,0 +1,174 @@
+body{
+	margin: 0px;
+	background-color: black;
+	height: 969px;
+}
+/*************upperContainer************/
+
+.upperContainer{
+	height: 100%;
+	width: 100%;
+}
+#bg{
+	height: 970px;
+	width: 100%;
+	height: 100%;
+	opacity: 50%;
+	float: left;
+}
+.loginBox{
+	position: absolute;
+	height: 550px;
+	width: 350px;
+	float: left;
+	background-color: rgba(0, 0, 0, .8);
+	margin-left: 810px;
+	margin-top: 150px;
+	border-radius: 10px;
+}
+.logo img{
+	height: 100px;
+	margin-top: 30px;
+	margin-left: 120px;
+}
+.logo{
+	height: 150px;
+	width: 100%;
+}
+.reg-log{
+	height: 400px;
+	width: 100%;
+	border-radius: 30px;
+	background-color: rgba(60, 60, 60, .1);
+}
+
+.reg-logBtn{
+	height: 80px;
+	width: 100%;
+}
+.reg-logBtn #loginBtn{
+	font-size: 19px;
+	font-family: 'Gotham', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	float: left;
+	padding: 10px 25px 10px;
+	margin-right: 20px;
+	border-bottom: 2px solid #ec3f3f;
+}
+.reg-logBtn #registerBtn{
+	font-size: 19px;
+	font-family: 'Gotham', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	float: left;
+	padding: 10px 25px 10px;
+	margin-right: 20px;
+
+}
+.reg-log p{
+	color: grey;
+	font-size: 11px;
+	font-family: 'Gotham', sans-serif;
+	float: left;
+	margin-top: 30px;
+	margin-left: 50px;
+}
+.reg-logBtn div:first-child{
+	float: left;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+.inputBox{
+	float: left;
+	margin-top: 20px;
+}
+.inputBox input{
+	background-color: #1e1e1e;
+	border: none;
+	border-radius: 3px;
+	height: 40px;
+	width: 260px;
+	margin-bottom: 30px;
+	margin-left: 30px;
+	padding-left: 20px;
+	color: white;
+}
+.keep{
+	float: left;
+	font-size: 14px;
+	font-family: 'Gotham', sans-serif;
+	color: grey;
+	margin-left: 30px;
+
+}
+#forgot{
+	float: left;
+	font-size: 13px;
+	font-family: 'Gotham', sans-serif;
+	margin-top: 3px;
+	text-decoration: none;
+	margin-left: 45px;
+	color: #ec3f3f;
+}
+.reg-logBtn button{
+	background-color: #ec3f3f;
+	color: white;
+	height: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+	border-radius: 10px;
+	margin-top: 40px;
+	margin-left: 110px;
+}
+.reg-logBtn button:hover{
+	cursor: pointer;
+	color: black ;
+}
+#terms{
+	color: #ec3f3f;
+	text-decoration: none;
+
+}
+
+/********************Start of lowerContainer *******************/
+.lowerContainer{
+	float: left;
+	height: 180px;
+	width: 100%;
+	background-color: black;
+	position: absolute;
+	margin-top: 789px;
+	opacity: 70%;
+}
+.a-box1{
+	float: left;
+	height: 100%;
+	width: 100px;
+	margin-left: 670px;
+}
+.a-box2{
+	float: left;
+	height: 100%;
+	width: 100px;
+	margin-left: 150px;
+}
+.a-box3{
+	float: left;
+	height: 100%;
+	width: 100px;
+	margin-left: 150px;
+}
+.a-box1 a ,.a-box2 a ,.a-box3 a{
+	float: left;
+	color: grey;
+	font-family: 'Gotham', sans-serif;
+	text-decoration: none;
+	margin-bottom: 5px;
+	margin-top: 25px;
+}
+.a-box1 a:hover, .a-box2 a:hover, .a-box3 a:hover{
+	color: white;
+}

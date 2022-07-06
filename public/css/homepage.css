@@ -1,0 +1,144 @@
+body{
+	margin: 0px;
+	background-color: #1a1818;
+	font-family: cursive;
+	overflow-x: hidden;
+}
+.nav-bar{
+	height: 100px;
+	width: 100%;
+	background-color: #050404;
+	position: fixed;
+}
+#logo{
+	float: left;
+	height: 70px;
+	margin-top: 15px;
+	margin-left: 100px;
+}
+#logo:hover{
+	cursor: pointer;
+}
+.nav-bar-buttons{
+	float: left;
+	margin-top: 35px;
+	margin-left: 100px;
+
+}
+.nav-bar-buttons a{
+	float: left;
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.nav-bar-buttons a:hover{
+	cursor: pointer;
+	background-color: #2a2424;
+}
+.search-bar{
+	float: left;
+	margin-left: 550px;
+}
+.search-bar img{
+	position: absolute;
+	height: 20px;
+	margin-top: 8px;
+	margin-left: 5px;
+}
+.search-bar input{
+	padding-left: 30px;
+	height: 35px;
+	width: 300px;
+	background-color: #1a1818;
+	color: white;
+	border: none;
+	font-size: 18px;
+}
+
+/************ End of Header *************/
+.preview-trailer-container{
+	float: left;
+	margin-top: 200px;
+	margin-left: 620px;
+	height: 300px;
+	width: 650px;
+}
+.preview-trailer-container p{
+	text-align: center;
+	font-size: 30px;
+	margin: 0px;
+	color: white;
+}
+.live1-container{
+	float: left;
+	height: 200px;
+	width: 300px;
+	background-color: black;
+	margin-right: 50px;
+}
+.live2-container{
+	float: left;
+	height: 200px;
+	width: 300px;
+	background-color: black;
+}
+.all-video-container{
+	float: left;
+	margin-top: 10px;
+	margin-left: 80px;
+
+}
+.watch-next{
+	height: 190px;
+	width: 100%;
+	float: left;
+	margin-top: 20px;
+}
+.watch-next p{
+	color: white;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+.watch-next img{
+	height: 130px;
+	margin-top: 10px;
+	margin-right: 8px;
+}
+
+.recommended-movies{
+	height: 190px;
+	width: 100%;
+	float: left;
+	margin-top: 20px;
+}
+.recommended-movies p{
+	color: white;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+.recommended-movies img{
+	height: 130px;
+	margin-top: 10px;
+	margin-right: 8px;
+}
+
+/****************** RESPONSIVE *********************/
+@media(max-width: 1440px){
+	.nav-bar-buttons{
+		background-color: red;
+	}
+	.search-bar{
+		margin-left: 200px;
+	}
+}
+@media(max-width: 1655px){
+	.search-bar{
+		margin-left: 150px;
+	}
+}

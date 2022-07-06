@@ -1,0 +1,35 @@
+body{
+	margin: 0px;
+	font-family: sans-serif;
+	background-color: #131212;
+}
+.header{
+	height: 100px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, .2); 
+	position: fixed;
+}
+.header img{
+	float: left;
+	height: 80px;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+.header a{
+	float: left;
+	text-decoration: none;
+	color: whitesmoke;
+	margin-top: 30px;
+	margin-left: 1550px;
+	background-color: #fb1f1f;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 3px;
+}
+.bg-image-container {
+	float: left;
+	height: 970px;
+	width: 100%;
+}
