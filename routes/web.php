@@ -34,6 +34,17 @@ Route::get('/register', function () {
     return view('register');
 });
 
+// Forgot
+Route::get('/forgot', function () {
+    return view('forgot');
+});
+
+// Term of Use
+Route::get('/term', function () {
+    return view('term');
+});
+
+
 // Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

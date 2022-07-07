@@ -60,7 +60,7 @@
 			<img src="./thumbnails/the-sopranos.jpg">
 			<img src="./thumbnails/x-men.jpg">
 			<img src="./thumbnails/barky.jpg">
-			<img src="./thumbnails/limitless.jpg">
+			<img src="./thumbnails/pan's-labyrinth.jpg">
 		</div>
 	</div>
 

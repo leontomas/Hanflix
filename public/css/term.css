@@ -1,0 +1,71 @@
+body{
+	margin: 0px;
+	font-family: sans-serif;
+	height: 2000px;
+}
+.header{
+	background-color: black;
+	height: 100px;
+	width: 100%;
+}
+.logo{
+	float: left;
+	height: 100%;
+	width: 50%;
+	display: inline-flex;
+}
+
+.logo img{
+	height: 80px;
+	margin-left: 250px;
+	margin-top: 8px;
+}
+.logo a{
+	color: whitesmoke;
+	text-decoration: none;
+	font-size: 25px;
+	margin-top: 36px;
+	margin-left: 20px;
+}
+.buttons{
+	float: right;
+	margin-right: 250px;
+	margin-top: 40px;
+}
+.buttons a{
+	text-decoration: none;
+	color: white;
+	margin-right: 20px;
+}
+#join-button{
+	border: 1px solid white;
+	padding: 10px 25px 10px 25px;
+}
+#sign-button{
+	background-color: #fd5454;
+	padding: 10px 35px 10px 35px;
+}
+/************terms-container*************/
+.terms-container{
+	height: 100%;
+	width: 50%;
+	margin: auto;
+}
+
+#home-button{
+	text-decoration: none;
+	background-color: #ff4444;
+	padding: 5px 25px 5px 25px;
+	border-radius: 2px;
+	color: white;
+}
+
+.confirm{
+	margin-top: 15px;
+}
+/*************footer***************/
+.footer{
+	height: 200px;
+	width: 100%;
+	background-color: black;
+}

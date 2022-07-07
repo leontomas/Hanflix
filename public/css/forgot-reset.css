@@ -1,0 +1,130 @@
+body{
+	margin: 0px;
+	font-family: sans-serif;
+	overflow-y: hidden ;
+}
+.header{
+	background-color: black;
+	height: 100px;
+	width: 100%;
+}
+.logo{
+	float: left;
+	height: 100%;
+	width: 50%;
+	display: inline-flex;
+}
+
+.logo img{
+	height: 80px;
+	margin-left: 250px;
+	margin-top: 8px;
+}
+.logo a{
+	color: whitesmoke;
+	text-decoration: none;
+	font-size: 25px;
+	margin-top: 36px;
+	margin-left: 20px;
+}
+.buttons{
+	float: right;
+	margin-right: 250px;
+	margin-top: 40px;
+}
+.buttons a{
+	text-decoration: none;
+	color: white;
+	margin-right: 20px;
+}
+#join-button{
+	border: 1px solid white;
+	padding: 10px 25px 10px 25px;
+}
+#sign-button{
+	background-color: #fd5454;
+	padding: 10px 35px 10px 35px;
+}
+#sign-button:hover{
+	background-color: #ff4444;
+}
+/************forgot-password*************/
+
+.forgot-password-container{
+	height: 300px;
+	width: 25%;
+	margin: auto;
+
+}
+.forgot-password-container div:first-child{
+	height: 60px;
+	width: 100%;
+	border-bottom: 1px solid grey;
+
+}
+.forgot-password-container div:first-child h3{
+	font-size: 30px;
+	text-align: center;
+}
+.account-input input{
+	margin-top: 10px;
+	margin-left: 50px;
+	height: 30px;
+	width: 350px;
+}
+.account-buttons{
+	float: right;
+	margin-top: 20px;
+}
+.account-buttons a{
+	text-decoration: none;
+	color: #202020;
+	background-color: #efeeee;
+	padding: 10px 25px 10px 25px;
+	border-radius: 2px;
+}
+.account-buttons button{
+	border: none;
+	background-color: #fd5454;
+	padding: 8px 35px 7px 35px;
+	font-size: 18px;
+	font-weight: bold;
+
+}
+.account-buttons button:hover{
+	cursor: pointer;
+	background-color: #ff4444 ;
+}
+/*************footer***************/
+.lowerContainer {
+    float: left;
+    height: 180px;
+    width: 100%;
+    background-color: black;
+ 	margin-top: 359px;
+}
+.lowerContainer a{
+	text-decoration: none;
+	color: white;
+}
+.a-box1,.a-box2,.a-box3{
+	margin-top: 50px;
+}
+.a-box1 {
+    float: left;
+    height: 100%;
+    width: 100px;
+    margin-left: 670px;
+}
+.a-box2 {
+    float: left;
+    height: 100%;
+    width: 100px;
+    margin-left: 150px;
+}
+.a-box3 {
+    float: left;
+    height: 100%;
+    width: 100px;
+    margin-left: 150px;
+}

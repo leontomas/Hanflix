@@ -32,8 +32,9 @@ body{
 	margin-right: 50px;
 	text-decoration: none;
 	color: white;
+	border-radius: 5px;
 	background-color: #ff4444;
-	padding: 15px 30px 15px 30px;
+	padding: 10px 20px 10px 20px;
 }
 
 #button-container a:hover{
@@ -94,7 +95,7 @@ body{
 	left: 42%;
 	background-color: #ff4444;
 	padding: 10px 25px 10px 25px;
-	border-radius: 2px;
+	border-radius: 5px;
 	font-size: 30px;
 }
 #subscribe:hover{
@@ -173,7 +174,7 @@ body{
 	color: white;
 	background-color: #ff4444;
 	position: absolute;
-	padding: 10px 24px 10px 24px;
+	padding: 10px 25px 10px 25px;
 	margin-left: 299px;
 	border: none;
 }

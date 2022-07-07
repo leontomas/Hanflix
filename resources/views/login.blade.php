@@ -44,7 +44,7 @@
 					</label>
                   	
 					<button onclick="">Login</button>
-                    <a id="forgot" href="">Forgot my password?</a>
+                    <a id="forgot" href="{{ url('forgot') }}">Forgot Password</a>
 					<p>By continuing, you agree to Hanflix's <a id="terms" href="">Terms of use</a></p>
 	
 				</div>
