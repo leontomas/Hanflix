@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="forgot-reset.css">
+	<link rel="stylesheet" type="text/css" href="./css/forgot-reset.css">
 </head>
 <style type="text/css">
 
@@ -17,8 +17,8 @@
 		</div>
 		<div class="buttons">
 			<div>
-				<a id="join-button"href="">Join HanFlix</a>
-				<a id="sign-button"href="file:///C:/Users/ADMIN/Desktop/Netflix/login.html">Sign in</a>
+				<a id="join-button"href="{{ url('register') }}">Join HanFlix</a>
+				<a id="sign-button"href="{{ url('login') }}">Sign in</a>
 			</div>
 		</div>
 	</div>
@@ -36,7 +36,7 @@
 		</div>
 		
 		<div class="account-buttons">
-			<a href="file:///C:/Users/ADMIN/Desktop/Netflix/forgot.html">Back</a>
+			<a href="{{ url('forgot') }}">Back</a>
 			<button>Reset</button>
 		</div>
 	</div>

@@ -52,7 +52,7 @@ body{
 .search-bar input{
 	padding-left: 30px;
 	height: 35px;
-	width: 300px;
+	width: 100%;
 	background-color: #1a1818;
 	color: white;
 	border: none;
@@ -72,6 +72,7 @@ body{
 	font-size: 30px;
 	margin: 0px;
 	color: white;
+	margin-bottom: 10px;
 }
 .live1-container{
 	float: left;
@@ -89,7 +90,8 @@ body{
 .all-video-container{
 	float: left;
 	margin-top: 10px;
-	margin-left: 80px;
+	margin-left: 5%;
+	margin-right: 5%;
 
 }
 .watch-next{
@@ -120,7 +122,7 @@ body{
 	color: white;
 	font-size: 20px;
 	margin-top: 10px;
-	margin-bottom: 0px;
+	margin-bottom: 2px;
 }
 .recommended-movies img{
 	height: 130px;
@@ -130,15 +132,72 @@ body{
 
 /****************** RESPONSIVE *********************/
 @media(max-width: 1440px){
-	.nav-bar-buttons{
-		background-color: red;
-	}
+	
 	.search-bar{
-		margin-left: 200px;
+		width: 33%;
+		margin-left: 80%;
+		margin-right: -20%;
+		margin-top: -4.5%;
+		margin-bottom: 20px;
+	}
+
+	.preview-trailer-container p{
+		margin-left: -60%;
+	}	
+
+	.live1-container{
+		margin-left: -30%;
+	}
+
+	.all-video-container{
+		float: left;
+		margin-top: 10px;
+		margin-left: 80px;
+	
+	}
+
+	.watch-next p{
+		font-size: 30px;
+		margin-top: -3%;
+	}
+
+	.watch-next img{
+		height: 100%;
+		width: 30%;
+		margin-top: 30px;
+		margin-right: 8px;
+	}
+
+	.recommended-movies{
+		margin-top: 45%;
+	}  
+
+	.recommended-movies p{
+		font-size: 30px;
+		margin-top: -5%;
+		margin-bottom: 15px;
+	}
+
+	.recommended-movies img{
+		height: 100%;
+		width: 30%;
+		margin-top: 10px;
+		margin-right: 8px;
 	}
 }
-@media(max-width: 1655px){
+
+@media(max-width: 1024px){
 	.search-bar{
-		margin-left: 150px;
+		width: 20%;
+		margin-left: 35px;
+		margin-top: 5px;
+	}
+
+	.preview-trailer-container p{
+		margin-right: 50%;
+	}	
+
+	.live1-container{
+		margin-left: -50%;
 	}
 }

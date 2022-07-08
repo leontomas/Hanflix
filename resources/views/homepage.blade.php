@@ -4,6 +4,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Han Flix - Home page</title>
+
+	<!-- External CSS -->
 	<link rel="stylesheet" type="text/css" href="./css/homepage.css">
 
     <!-- Font -->
@@ -33,7 +35,7 @@
 		
 	</div>
 	
-    <div class="preview-trailer-container">
+    <div class="preview-trailer-container ">
 		<p>Live Streams</p>
 		<div class="live1-container">
 		</div>

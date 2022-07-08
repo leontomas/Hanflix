@@ -17,8 +17,8 @@
 		</div>
 		<div class="buttons">
 			<div>
-				<a id="join-button"href="{{ url('register') }}">Join HanFlix</a>
-				<a id="sign-button"href="{{ url('login') }}">Sign in</a>
+				<a id="join-button"href="">Join HanFlix</a>
+				<a id="sign-button"href="file:///C:/Users/ADMIN/Desktop/Netflix/login.html">Sign in</a>
 			</div>
 		</div>
 	</div>
@@ -31,8 +31,8 @@
 			<input type="email" name="" placeholder="Enter your account">
 		</div>
 		<div class="account-buttons">
-			<a href="{{ url('login') }}">Cancel</a>
-			<a href="{{ url('login') }}"><button>Enter</button></a>
+			<a href="">Cancel</a>
+			<button>Enter</button>
 		</div>
 	</div>
 
