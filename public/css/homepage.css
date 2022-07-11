@@ -131,7 +131,9 @@ body{
 }
 
 /****************** RESPONSIVE *********************/
-@media(max-width: 1440px){
+@media only screen and (max-width: 1440px){
+
+	/* Laptop */
 	
 	.search-bar{
 		width: 33%;
@@ -162,8 +164,8 @@ body{
 	}
 
 	.watch-next img{
-		height: 100%;
-		width: 30%;
+		height: 60%;
+		width: 15%;
 		margin-top: 30px;
 		margin-right: 8px;
 	}
@@ -174,30 +176,50 @@ body{
 
 	.recommended-movies p{
 		font-size: 30px;
-		margin-top: -5%;
+		margin-top: -35%;
 		margin-bottom: 15px;
 	}
 
 	.recommended-movies img{
-		height: 100%;
-		width: 30%;
+		height: 60%;
+		width: 15%;
 		margin-top: 10px;
 		margin-right: 8px;
 	}
 }
 
-@media(max-width: 1024px){
-	.search-bar{
-		width: 20%;
-		margin-left: 35px;
-		margin-top: 5px;
+@media only screen and (max-width: 768px) {
+	
+	/* Tablet */
+	.search-bar input{
+		height: 35px;
+		width: 50%;
 	}
-
 	.preview-trailer-container p{
-		margin-right: 50%;
+		margin-left: -91%;
 	}	
-
 	.live1-container{
-		margin-left: -50%;
+		height: 100%;
+		width: 60%;
+		margin-left: -60%;
+	}
+	.live2-container{
+		height: 100%;
+		width: 60%;
+	}
+	.all-video-container{
+		margin-top: 15%;
+	}
+	.watch-next img{
+		height: 90%;
+		width: 19%;
+		margin-top: -30px;
+		margin-right: 8px;
+	}
+	.watch-next p{
+		margin-bottom: 10%;
 	}
 }
+
+
+

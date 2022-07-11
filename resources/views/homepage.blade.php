@@ -3,7 +3,11 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Han Flix - Home page</title>
+	<title>hanflix</title>
+
+	<link rel="hanflix icon" type="image" href="./css/thumbnails/logo2.png">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 	<!-- External CSS -->
 	<link rel="stylesheet" type="text/css" href="./css/homepage.css">
@@ -15,6 +19,9 @@
     <style>
         @import url('http://fonts.cdnfonts.com/css/gotham');
     </style>
+
+	<!-- Boostrap Link -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
 	<div class="nav-bar">
@@ -44,9 +51,11 @@
 	</div>
 	
     <div class="all-video-container">
-		<div class="watch-next">
+		<div class="watch-next row justify-content">
 			<p>Watch Next</p>
-			<img src="./thumbnails/mindhunter.jpg">
+			<div class="col-4">
+				<img src="./thumbnails/mindhunter.jpg">
+			</div>
 			<img src="./thumbnails/better-call-saul.jpg">
 			<img src="./thumbnails/coherence.jpg">
 			<img src="./thumbnails/everything-everywhere.jpg">

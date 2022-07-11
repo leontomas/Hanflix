@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+	padding: 0;
+	font-family: 'Gotham', sans-serif;
+}
+
+body{
+	margin: 0px;
+	background-color: #1a1818;
+	font-family: 'Gotham', sans-serif;
+	overflow-x: hidden;
+}
+ 
+/* NAVBAR */
+.navbar {
+    background-color: #050404;   
+}
+
+.navbar-brand {
+    width: 5%;
+    min-width: 5%;
+    max-width: 5%;
+}
+
+.navbar-brand .img-logo {
+    width: 50% !important;
+    /*margin-left: 100% !important;*/
+}
+
+.img-logo {
+   margin-left: 50px !important; 
+}
+
+.img-logo:hover{
+    cursor: pointer;
+}
+
+.navbar-nav {
+	align-items: center;
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+#sample-nav ul, li, a {
+    font-size: 16px;
+    color: white !important;
+   	display: inline-flex;
+   	margin-left: 1rem !important;
+   /* list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;*/
+}
+
+.icons img{
+	position: relative;
+	height: 20px;
+	margin-top: 8px;
+	margin-left: 10px; 
+    margin-right: 10px;
+}
+
+/* END OF HEADER */
+/* LIVE STREAM */
+.preview-trailer-container{
+	float: left;
+	margin-top: 20px;
+	margin-left: 30%;
+	height: 300px;
+	width: 650px;
+}
+.preview-trailer-container p{
+	text-align: center;
+	font-size: 30px;
+	margin: 0px;
+	color: white;
+	margin-bottom: 10px;
+}
+.live1-container{
+	float: left;
+	height: 200px;
+	width: 300px;
+	background-color: black;
+	margin-right: 50px;
+}
+.live2-container{
+	float: left;
+	height: 200px;
+	width: 300px;
+	background-color: black;
+}
+
+/* IMAGE CONTAINER */
+.all-video-container{
+	float: left;
+	margin-top: 10px;
+	margin-left: 5%;
+	margin-right: 5%;
+
+}
+.watch-next{
+	height: 100%;
+	width: 50%;
+	float: left;
+	margin-top: 20px;
+}
+.watch-next p{
+	color: white;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+/*.watch-next img{
+	height: 50%;
+    width: 50%;
+	margin-top: 10px;
+	margin-right: 8px;
+}*/
+
+.watch-image {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
